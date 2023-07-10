@@ -1,12 +1,15 @@
 [package]
-name = "rust_bootcamp_2023"
+name = "Rust-Bootcamp-2023"
 version = "0.1.0"
 edition = "2021"
 authors = ["CocDap"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
-members = ["./exercises/basic-of-rust"]
+members = [
+  "./exercises/basic-of-rust",
+  "./exercises/ownership-borrowing"
+]
 
 [[test]]
 name = "conditions"
