@@ -1,5 +1,11 @@
 {
     "rust-analyzer.linkedProjects": [
+<<<<<<< HEAD
         "./exercises/ownership-borrowing/Cargo.toml"
+=======
+        "./exercises/ownership-borrowing/Cargo.toml",
+        "./exercises/complex-type/Cargo.toml",
+        "./exercises/complex-type/Cargo.toml"
+>>>>>>> da11502 (bt4)
     ]
 }
